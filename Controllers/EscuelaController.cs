@@ -13,6 +13,7 @@ namespace platzi_asp_net.Controllers
             escuela.AñoFundacion = 2005;
             escuela.Id = Guid.NewGuid().ToString();
             escuela.Nombre = "Platzi School";
+            ViewBag.CosaDinamica = "La monja";
             return View(escuela);
         }
 
