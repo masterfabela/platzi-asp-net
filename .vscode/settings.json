@@ -8,5 +8,14 @@
 		"**/bin": true,
 		"**/obj": true
 	},
-	"editor.formatOnSave": true
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/*.code-search": true,
+		"**/lib": true
+	},
+	"editor.formatOnSave": true,
+	"[csharp]": {
+		"editor.tabSize": 4
+	}
 }
